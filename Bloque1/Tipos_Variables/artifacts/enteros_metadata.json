@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque1/Tipos_Variables/variables_enteras.sol": "enteros"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque1/Tipos_Variables/variables_enteras.sol": {
+			"keccak256": "0x428e8fcabef26864bc7209a2ea673ae31545343d17bd5b6630e1b0e5c3502d2c",
+			"urls": [
+				"bzzr://d449c3f68c88facd6629ba0ec4d55e039ad0a231efb5f6261a25ff460435c56e"
+			]
+		}
+	},
+	"version": 1
+}
