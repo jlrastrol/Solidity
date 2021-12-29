@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_j",
+						"type": "string"
+					},
+					{
+						"name": "_i",
+						"type": "string"
+					}
+				],
+				"name": "Comparar",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque1/Tipos_Variables/comparar_strings.sol": "compararStrings"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque1/Tipos_Variables/comparar_strings.sol": {
+			"keccak256": "0xac9e15b41ad56418464928934bab3516c5252904a22f79e04bb753cf533bf01d",
+			"urls": [
+				"bzzr://e379b2c67f88d1de5dc72422f514c9629df80b485a3ef306b87e96a097ba9554"
+			]
+		}
+	},
+	"version": 1
+}
