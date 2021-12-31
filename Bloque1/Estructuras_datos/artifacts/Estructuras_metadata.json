@@ -1,0 +1,133 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "cliente_1",
+				"outputs": [
+					{
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"name": "dni",
+						"type": "string"
+					},
+					{
+						"name": "mail",
+						"type": "string"
+					},
+					{
+						"name": "phone_number",
+						"type": "uint256"
+					},
+					{
+						"name": "credit_number",
+						"type": "uint256"
+					},
+					{
+						"name": "secret_number",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "caritas",
+				"outputs": [
+					{
+						"name": "ong",
+						"type": "address"
+					},
+					{
+						"name": "nombre",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "movil",
+				"outputs": [
+					{
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"name": "precio",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "medicamentos",
+				"outputs": [
+					{
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"name": "precio_objetivo",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque1/Estructuras_datos/Estructuras.sol": "Estructuras"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque1/Estructuras_datos/Estructuras.sol": {
+			"keccak256": "0x43185f935b949b4aacc1f75afeeac47a1d13853ff6d6ea0fa4aa42d9d87a8794",
+			"urls": [
+				"bzzr://93d78d8d5dc2b8a4c42298846f34d131983297240a4b9281691b9823725bdfde"
+			]
+		}
+	},
+	"version": 1
+}

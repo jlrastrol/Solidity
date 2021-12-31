@@ -1,0 +1,172 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_numeroDni",
+						"type": "uint256"
+					},
+					{
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"name": "_edad",
+						"type": "uint256"
+					}
+				],
+				"name": "dni_Persona",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"name": "_cantidad",
+						"type": "uint256"
+					}
+				],
+				"name": "Dinero",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_nombre",
+						"type": "string"
+					}
+				],
+				"name": "consultarDinero",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_dni",
+						"type": "uint256"
+					}
+				],
+				"name": "VisualizarPersona",
+				"outputs": [
+					{
+						"components": [
+							{
+								"name": "nombre",
+								"type": "string"
+							},
+							{
+								"name": "edad",
+								"type": "uint256"
+							}
+						],
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "consultarNumero",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_numero",
+						"type": "uint256"
+					}
+				],
+				"name": "ElegirNumero",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "elegirNumero",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque1/Estructuras_datos/mappings.sol": "Mappings"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque1/Estructuras_datos/mappings.sol": {
+			"keccak256": "0x891ef40d09ccccd04ce82f2c3ac1ef2e1c61303b1de61cb8d44747851178e928",
+			"urls": [
+				"bzzr://78dcbac01b4bb85887e1ca718902482ea1c5842a4148cfaa7a795179d3b802db"
+			]
+		}
+	},
+	"version": 1
+}
