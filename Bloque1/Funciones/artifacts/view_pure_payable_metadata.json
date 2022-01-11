@@ -1,0 +1,158 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "verSaldo",
+				"outputs": [
+					{
+						"components": [
+							{
+								"name": "nombre_persona",
+								"type": "string"
+							},
+							{
+								"name": "direccion_persona",
+								"type": "address"
+							},
+							{
+								"name": "dinero_persona",
+								"type": "uint256"
+							}
+						],
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"name": "_b",
+						"type": "uint256"
+					}
+				],
+				"name": "exponenciacion",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_a",
+						"type": "uint256"
+					}
+				],
+				"name": "sumarAx",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_alumno",
+						"type": "string"
+					}
+				],
+				"name": "nuevo_alumno",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_posicion",
+						"type": "uint256"
+					}
+				],
+				"name": "ver_alumno",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_nombrePersona",
+						"type": "string"
+					},
+					{
+						"name": "_cantidad",
+						"type": "uint256"
+					}
+				],
+				"name": "Pagar",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque1/Funciones/modificadores-2.sol": "view_pure_payable"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque1/Funciones/modificadores-2.sol": {
+			"keccak256": "0x74869c053585f4c4899efb3bead4ecdb8dc775e401dc41f04696dd63470729d8",
+			"urls": [
+				"bzzr://953797ad3badf5d1e3488ee7f5bbc773ce2d26863d44c78993bf6ffd241e5d5b"
+			]
+		}
+	},
+	"version": 1
+}

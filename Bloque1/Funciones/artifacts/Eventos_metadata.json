@@ -1,0 +1,158 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "AbortarMision",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_nombrePersona",
+						"type": "string"
+					},
+					{
+						"name": "_edad",
+						"type": "uint256"
+					}
+				],
+				"name": "EmitirEvento3",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_nombrePersona",
+						"type": "string"
+					}
+				],
+				"name": "EmitirEvento1",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_nombrePersona",
+						"type": "string"
+					},
+					{
+						"name": "_edad",
+						"type": "uint256"
+					}
+				],
+				"name": "EmitirEvento2",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "_nombrePersona",
+						"type": "string"
+					}
+				],
+				"name": "nombre_evento1",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "_nombrePersona",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"name": "_edadPersona",
+						"type": "uint256"
+					}
+				],
+				"name": "nombre_evento2",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"name": "",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"name": "nombre_evento3",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "abortarmision",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque1/Funciones/eventos.sol": "Eventos"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque1/Funciones/eventos.sol": {
+			"keccak256": "0xedb5da9474c022a129f09ed60a95f1bb3b09b83901269d889a0f2b00f95f2ce3",
+			"urls": [
+				"bzzr://cbd55ab086763d1cac302dafabf94fbcabc34f9f5f6bf23f9add0eaf81f988b1"
+			]
+		}
+	},
+	"version": 1
+}
