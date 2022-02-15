@@ -6,27 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_nombre",
-						"type": "string"
-					}
-				],
-				"name": "AltaCliente",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_nombre",
-						"type": "string"
-					}
-				],
-				"name": "ConsultarDinero",
+				"inputs": [],
+				"name": "cartera",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -43,14 +24,9 @@
 						"internalType": "string",
 						"name": "_nombre",
 						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_cantidad",
-						"type": "uint256"
 					}
 				],
-				"name": "IngresarDinero",
+				"name": "nuevoNombre",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -58,22 +34,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_nombre",
-						"type": "string"
-					},
-					{
 						"internalType": "uint256",
 						"name": "_cantidad",
 						"type": "uint256"
 					}
 				],
-				"name": "RetirarDinero",
+				"name": "pagar",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -83,13 +54,19 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_nombre",
+						"name": "_pas",
 						"type": "string"
 					}
 				],
-				"name": "nuevoCliente",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "password",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -106,7 +83,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Bloque1/Varios_Smart_Contract/herencia.sol": "Cliente"
+			"Bloque1/Funciones_Avanzadas/require.sol": "Rquire"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -120,11 +97,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"Bloque1/Varios_Smart_Contract/herencia.sol": {
-			"keccak256": "0xc386cc65bea401d84a4e9be9817eb9f548d0db6fd68a32bc9e100b76d0bcd80b",
+		"Bloque1/Funciones_Avanzadas/require.sol": {
+			"keccak256": "0x5ed81ed617db8ade372e4a098255fe331bb5f0bd149b9e406b8a9ec2b9dda8b7",
 			"urls": [
-				"bzz-raw://5e63974dc19115ec95703562f0d1bedacf5bf696c0ad932459467c05c6d78f19",
-				"dweb:/ipfs/QmRAbP1Agi3i9B72R63BHPDnmGjWhcaRVDPuRWrnuBPFgQ"
+				"bzz-raw://00b3c565ca6189d8c058f58c94b6aaa39c481dfac243fe4068d521b537ef82ff",
+				"dweb:/ipfs/QmZWaopdZThikPx9NMDC8EzzM57etGNBhJmYsE6Xx6T5yo"
 			]
 		}
 	},

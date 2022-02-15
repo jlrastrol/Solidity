@@ -1,38 +1,44 @@
 {
 	"compiler": {
-		"version": "0.4.26+commit.4563c3fc"
+		"version": "0.6.12+commit.27d51765"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"constant": false,
 				"inputs": [
 					{
+						"internalType": "string",
 						"name": "_nombre",
 						"type": "string"
 					}
 				],
 				"name": "nuevoCliente",
 				"outputs": [],
-				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"Bloque1/Varios_Smart_Contract/herencia.sol": "Banco"
 		},
-		"evmVersion": "byzantium",
+		"evmVersion": "istanbul",
 		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -43,7 +49,8 @@
 		"Bloque1/Varios_Smart_Contract/herencia.sol": {
 			"keccak256": "0xc386cc65bea401d84a4e9be9817eb9f548d0db6fd68a32bc9e100b76d0bcd80b",
 			"urls": [
-				"bzzr://7c0b571ece4e494479661d6450410843e246b09e4d8cc802b00eca3609e2e11b"
+				"bzz-raw://5e63974dc19115ec95703562f0d1bedacf5bf696c0ad932459467c05c6d78f19",
+				"dweb:/ipfs/QmRAbP1Agi3i9B72R63BHPDnmGjWhcaRVDPuRWrnuBPFgQ"
 			]
 		}
 	},

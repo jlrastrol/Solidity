@@ -1,0 +1,60 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220bdd555fad2b0335c79923fb7aa1e008dfecd863e07e49e06c5860ba846f8b65064736f6c63430007000033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xBD 0xD5 SSTORE STATICCALL 0xD2 0xB0 CALLER 0x5C PUSH26 0x923FB7AA1E008DFECD863E07E49E06C5860BA846F8B65064736F PUSH13 0x63430007000033000000000000 ",
+			"sourceMap": "53:721:0:-:0;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052600080fdfea2646970667358221220bdd555fad2b0335c79923fb7aa1e008dfecd863e07e49e06c5860ba846f8b65064736f6c63430007000033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xBD 0xD5 SSTORE STATICCALL 0xD2 0xB0 CALLER 0x5C PUSH26 0x923FB7AA1E008DFECD863E07E49E06C5860BA846F8B65064736F PUSH13 0x63430007000033000000000000 ",
+			"sourceMap": "53:721:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12600",
+				"executionCost": "66",
+				"totalCost": "12666"
+			},
+			"internal": {
+				"Ingredientes(string memory)": "infinite",
+				"NuevoPlato(string memory,string memory,uint256)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

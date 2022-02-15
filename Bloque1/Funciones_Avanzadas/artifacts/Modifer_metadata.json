@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					}
+				],
+				"name": "altaCliente",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_edad",
+						"type": "uint256"
+					}
+				],
+				"name": "conducir",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ejemplo1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					}
+				],
+				"name": "ejemplo2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque1/Funciones_Avanzadas/modifier.sol": "Modifer"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque1/Funciones_Avanzadas/modifier.sol": {
+			"keccak256": "0x04fc2d66c2a0ebce6f5f228cb8674eac20d9c07c4b7c648cbe17b67674950fed",
+			"urls": [
+				"bzz-raw://acc92b8acdb53d1c9250eaca10c605d88392e7aa19cd89cfd0459609bb77b5d7",
+				"dweb:/ipfs/Qmb8ng3FHxaBU8kyndDUipYHokYkr9aKEBzdPJau9c6iRG"
+			]
+		}
+	},
+	"version": 1
+}

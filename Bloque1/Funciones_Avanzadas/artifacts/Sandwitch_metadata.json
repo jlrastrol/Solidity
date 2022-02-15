@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.7.0+commit.9e61f92b"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ingredientes",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_tiempo",
+						"type": "uint256"
+					}
+				],
+				"name": "sandwitch",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "verIngredientes",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque1/Funciones_Avanzadas/internal_external.sol": "Sandwitch"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque1/Funciones_Avanzadas/internal_external.sol": {
+			"keccak256": "0xa0dd79e4b3b756f7534bf94526ca28a0bda2d7f67341629618ed21bfe44720c5",
+			"urls": [
+				"bzz-raw://4f993fef8ecc9c546382fb3ed6ad5754363ada107b9e2541abd20328cc0062f0",
+				"dweb:/ipfs/QmVxjbiMTJtNDTGBjbNDHQ6s726f8LEfpMtkG3R2B7pXW7"
+			]
+		}
+	},
+	"version": 1
+}
