@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Bloque1/SafeMath/SafeMath_comentada.sol": "SafeMath"
+			"Bloque1/SafeMath/SafeMath.sol": "SafeMath"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Bloque1/SafeMath/SafeMath_comentada.sol": {
-			"keccak256": "0xe846915952553bc7863f9e670a9f6d89bef2b7047d5e65a2655c9726e39dcd9e",
+		"Bloque1/SafeMath/SafeMath.sol": {
+			"keccak256": "0x10b026f5bf6336222f045103d95b94c408fcd4b36095222431626663f519da6a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://39111a0f9827c5b5b78783eaa06ae6f8c47f6b059b4fcbbcdaf61122d7c4b47e",
-				"dweb:/ipfs/QmdgNfUbXxbE78mrBR1rrLQJHL2RBsaciYecVVZaZNU1cS"
+				"bzz-raw://cb82567f03c95c1518b6d09700323ef2d11bcf587a23f220b5aef4cd0cdf433f",
+				"dweb:/ipfs/QmURQ56waPNQnLAeQYVDui2RJnC5fEKw9v2rA6L4PZhSsb"
 			]
 		}
 	},
