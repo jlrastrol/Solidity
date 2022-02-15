@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_i",
+						"type": "uint256"
+					},
+					{
+						"name": "_j",
+						"type": "uint256"
+					}
+				],
+				"name": "multiplicacion",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_i",
+						"type": "uint256"
+					},
+					{
+						"name": "_j",
+						"type": "uint256"
+					}
+				],
+				"name": "division",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque1/Varios_Smart_Contract/librerias.sol": "Operaciones"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque1/Varios_Smart_Contract/librerias.sol": {
+			"keccak256": "0x5c57c9fef9d0b7c2c2bc8e0c1df1f01f12a4f9674830457ed9275f97b373884d",
+			"urls": [
+				"bzzr://879fa3fc458950d85ebc7e856dd7407bd5b4fa48d060b21ea1b759d81324ee1c"
+			]
+		}
+	},
+	"version": 1
+}

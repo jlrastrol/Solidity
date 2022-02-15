@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque1/Varios_Smart_Contract/Banco.sol": "Banco2"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque1/Varios_Smart_Contract/Banco.sol": {
+			"keccak256": "0xea02a4f56a508b72c56a36da73e0b70d4d8ffea1affb46b7de2c0e289ce4b6a1",
+			"urls": [
+				"bzzr://666da02a08b6c2cce09d74b52d25348b5a2ed4fc4a67ff98662e8c06faea6e8a"
+			]
+		}
+	},
+	"version": 1
+}

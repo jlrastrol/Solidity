@@ -1,0 +1,55 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820823d65b82607fe5eda8a2001beceb17c833aeb11b99978d58ffc6782e6f764410029",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x35 DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN STOP PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 DUP3 RETURNDATASIZE PUSH6 0xB82607FE5EDA DUP11 KECCAK256 ADD 0xbe 0xce 0xb1 PUSH29 0x833AEB11B99978D58FFC6782E6F7644100290000000000000000000000 ",
+			"sourceMap": "551:23:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;551:23:0;;;;;;;"
+		},
+		"deployedBytecode": {
+			"linkReferences": {},
+			"object": "6080604052600080fd00a165627a7a72305820823d65b82607fe5eda8a2001beceb17c833aeb11b99978d58ffc6782e6f764410029",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 DUP3 RETURNDATASIZE PUSH6 0xB82607FE5EDA DUP11 KECCAK256 ADD 0xbe 0xce 0xb1 PUSH29 0x833AEB11B99978D58FFC6782E6F7644100290000000000000000000000 ",
+			"sourceMap": "551:23:0:-;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "10600",
+				"executionCost": "66",
+				"totalCost": "10666"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}
